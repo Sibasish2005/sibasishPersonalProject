@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sibasish_portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-yh2c6A8V5h2gRxFc6RmU3rc2WZfNqL2W6ZTtA9yN5BXa1ZfYF1R7W1zK7J1Zu51sPBLZzUQW0Y6pODDLZUR5Bw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  </head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LogoSib2.png" class="logo">
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portofolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                 <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+              
+            </nav>
+            <div class="header-text">
+                <p>JavaScript Developer</p>
+                <h1>Hi,<br>I'm <span> Sibasish </span>Chakraborti from india</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section  -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                   <img src="images/userAbout.png" alt="">
+                </div>
+                <div class="About-col-2">
+                    <h1>About Me </h1>
+                    <p class="text-about-me">I am a JavaScript developer with a strong command of the language across all its core aspects. I have a deep understanding of variables, functions, objects, arrays as well as advanced concepts like asynchronous programming (callbacks, promises, async/await), the event loop, and closures.  and I'm currently expanding into Node.js to build full-stack applications.</p>
+                    <div class="tab-titles">
+                      <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                      <p class="tab-links"onclick="opentab('Education')">Education</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul> 
+                            <li><span>HTML</span><br>HTML fundamentals.</li>
+                            <li><span>CSS</span><br>Experienced in styling with CSS.</li>
+                            <li><span>JavaScript</span><br>Proficient in core JavaScript concepts.</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025</span><br>Web Developer Intern,Das Solutions,Indore,MP,India</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023</span><br> BCA ,NIELIT Agartala</li>
+                            
+                        </ul>
+                    </div>
+                  
+
+                </div>
+            </div>
+                
+            </div>
+        </div>
+     </div>
+
+     <!-- -------------services----------- -->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <img src="images/htmlimg.png" >
+                    <br>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2 class="service-title">HTML</h2>
+                    <p>We build fast, responsive, and secure web applications tailored to your business needs.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/cssimg.png">
+                    <br>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2 class="service-title">CSS </h2>
+                    <p>We create clean, modern, and responsive designs using advanced CSS techniques </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="service-item">
+                    <img src="images/jsimg.png">
+                    <br>
+                    <i class="fa-brands fa-js"></i>
+                    <h2 class="service-title">JavaScript</h2>
+                    <p>We add interactivity and dynamic features to websites using modern JavaScript practices </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    
+      <!-- --------------portfolio------------------->
+       <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <!-- to-do list -->
+            <div class="work">
+                <img src="images/todo list.png" >
+                <div class="layer">
+                    <h3>Todo-list</h3>
+                    <p>
+                        A tool to organize your timetable.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- tic-tac-toe -->
+            <div class="work">
+                <img src="images/tictaktoeimg.png" >
+                <div class="layer">
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>
+                        Enjoy playing Tic-Tac-Toe.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- portfolio project -->
+            <div class="work">
+                <img src="images/portfoliowork.png" >
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>detailed portfolio website in plain html css js</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+   <a href="#" class="btn">See More</a>
+        </div>
+       </div>
+       <!-- Contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <!-- socials -->
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                      <p>  <img src="images/send-message.png" height="15px
+                        " alt="">Sibasishchakraborty000@gmail.com</p>
+                        <p><img src="images/phone.png" alt="" height="15px"> 9863379440</p>
+                        <div class="social-icon">
+                            <a href="www.linkedin.com/in/sibasish-chakraborti-5b55b82b1"><img src="images/linkedin.png" alt="" height="50px"></a>
+                            <a href="#"><img src="images/facebook.png" alt="" height="50px"></a>
+                            <a href="#"><img src="images/whatsapp.png" alt="" height="50px"></a>
+                            <a href="#"><img src="images/instagram.png" alt="" height="50px"></a>
+                        </div>
+                         <a href="images/my-cv.pdf"  download class="btn2" > Download CV</a>
+                    </div>
+
+                    <!-- contact form -->
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Enter Your Name" required>
+                            <input type="text" name="Email" placeholder="Email" required>
+                            <textarea name="Message" rows="6" placeholder="yourmessage"></textarea>
+                            <button type="submit" class=" btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright © Sibasish. Made by Sibasish on reference with Easy Tutorials portfolio tutorials </p>
+            </div>
+        </div>
+     
+       <!-- -------------------script----------------- -->
+  </body>
+  <script src="script.js"></script>
+</html>
